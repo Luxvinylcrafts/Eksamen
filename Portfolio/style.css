@@ -46,6 +46,7 @@
 
        html, body {
         background-color: #ffffff;
+        
        
       }
 
@@ -64,4 +65,70 @@
         margin-right: auto;
       }
 
-   
+ .container1 > div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: x-large;
+   color: black;
+ }
+  .container1 {
+    height: 100%;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 400px 200px 300px 600px 500px 500px 200px;
+  
+}
+
+.billede {
+  grid-column: 1 / -1;
+}
+  
+
+.ommig {
+ grid-column: 1 / -1;
+ background-color: white;
+ font-family: "playfair display" ;
+ font-size: 40px;
+ font-weight: 900; 
+}
+
+
+.Billede_ommig {
+  grid-column: 1 / -1;
+}
+
+
+.ommig_tekst,p {
+  grid-column: 4/10;
+  text-align: center;
+  font-family: "raleway";
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.kompetencer {
+  grid-column: 1 / -1;
+  background-color: #fab;
+  }
+  
+
+.portfolio {
+  grid-column: 1 / -1;
+  background-color: rgb(175, 25, 155);
+}
+
+.kontakt {
+ grid-column: 1 / -1;
+ background-color: rgb(43, 226, 156);
+}
+
+.footer {
+  grid-column: 1 / -1;
+  background-color: #fabec0;
+  }
+  
+      
+    
+
